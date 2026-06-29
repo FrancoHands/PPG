@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8110:8110"
+    volumes:
+      - ./backend/data.db:/app/data.db
+      - ./backend/exports:/app/exports
+    restart: unless-stopped
