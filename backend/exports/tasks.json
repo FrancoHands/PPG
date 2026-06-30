@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1.1",
+    "nombre": "Tarea1",
+    "informacion": "Tarea1 de Procedimiento1",
+    "orden": 1,
+    "estado": "COMPLETADO",
+    "completado_en": "2026-06-26T10:28:47"
+  },
+  {
+    "id": "1.2",
+    "nombre": "Tarea2",
+    "informacion": "Tarea2 de Procedimiento1",
+    "orden": 2,
+    "estado": "PENDIENTE",
+    "completado_en": null
+  },
+  {
+    "id": "2.1",
+    "nombre": "Tarea1",
+    "informacion": "",
+    "orden": 1,
+    "estado": "PENDIENTE",
+    "completado_en": null
+  },
+  {
+    "id": "3.1",
+    "nombre": "Tarea prueba",
+    "informacion": null,
+    "orden": 1,
+    "estado": "PENDIENTE",
+    "completado_en": null
+  }
+]

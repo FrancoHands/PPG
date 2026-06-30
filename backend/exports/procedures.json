@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "nombre": "Procedimiento1",
+    "informacion": "Procedimiento1",
+    "estado": "COMPLETADO",
+    "completado_en": "2026-06-26T10:28:47"
+  },
+  {
+    "id": "2",
+    "nombre": "Test",
+    "informacion": "demo",
+    "estado": "PENDIENTE",
+    "completado_en": null
+  },
+  {
+    "id": "3",
+    "nombre": "Prueba Neo4j",
+    "informacion": null,
+    "estado": "PENDIENTE",
+    "completado_en": null
+  }
+]

@@ -102,3 +102,23 @@ Pasos para migrar el proyecto a otra computadora (con permisos de administrador)
 2. Copiar el código del proyecto, evitando copiar las carpetas `venv/`, `.venv/`, `__pycache__/` y los archivos `*.log`/`*.pid` (son artefactos locales, no código).
 3. Recrear el entorno virtual en la PC nueva: `python -m venv .venv` y luego `pip install -r backend/requirements.txt` (nunca copiar la carpeta `.venv/` entre máquinas, no es portable).
 4. Si se prefiere usar Docker en lugar de instalar Python manualmente, basta con correr `docker compose up --build` desde la raíz del proyecto.
+
+-------------------------------------------------------------------
+
+Cómo levantar el backend y abrirlo en el navegador
+
+Opción A — con el `.venv` del proyecto (desarrollo local, recarga automática al editar código):
+```powershell
+cd "c:\Users\Prestamo\Desktop\Proyecto Practica\backend"
+..\.venv\Scripts\python.exe -m uvicorn main:app --reload
+```
+Abrir en el navegador: `http://127.0.0.1:8000/docs` (Swagger UI, interfaz interactiva para probar cada endpoint) o `http://127.0.0.1:8000/redoc` (documentación de solo lectura).
+
+Opción B — con Docker (usa el puerto 8110 definido en `Dockerfile`/`docker-compose.yml`):
+```powershell
+cd "c:\Users\Prestamo\Desktop\Proyecto Practica"
+docker compose up --build
+```
+Abrir en el navegador: `http://localhost:8110/docs`.
+
+En ambos casos, `/docs` es la página de FastAPI (Swagger) donde se pueden ejecutar directamente los GET/POST/PUT/DELETE de procedimientos, tareas y pasos sin necesitar el frontend.

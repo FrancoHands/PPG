@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1.1.1",
+    "nombre": "Paso1",
+    "informacion": "Paso1 de Tarea1 de Procedimiento1",
+    "orden": 1,
+    "estado": "COMPLETADO",
+    "extras": "{\"acciones\": [], \"objetos\": [], \"condiciones\": [], \"locations\": [], \"estados\": []}",
+    "completado_en": "2026-06-26T10:28:02",
+    "extras_json": {
+      "acciones": [],
+      "objetos": [],
+      "condiciones": [],
+      "locations": [],
+      "estados": []
+    }
+  },
+  {
+    "id": "1.1.2",
+    "nombre": "Paso2",
+    "informacion": "Paso2 de Tarea1 de Procedimiento1",
+    "orden": 2,
+    "estado": "COMPLETADO",
+    "extras": "{\"acciones\": [], \"objetos\": [], \"condiciones\": [], \"locations\": [], \"estados\": []}",
+    "completado_en": "2026-06-26T10:28:47",
+    "extras_json": {
+      "acciones": [],
+      "objetos": [],
+      "condiciones": [],
+      "locations": [],
+      "estados": []
+    }
+  },
+  {
+    "id": "2.1.1",
+    "nombre": "Paso1",
+    "informacion": "",
+    "orden": 1,
+    "estado": "PENDIENTE",
+    "extras": "{\"acciones\": [], \"objetos\": [], \"condiciones\": [], \"locations\": [], \"estados\": []}",
+    "completado_en": null,
+    "extras_json": {
+      "acciones": [],
+      "objetos": [],
+      "condiciones": [],
+      "locations": [],
+      "estados": []
+    }
+  },
+  {
+    "id": "3.1.1",
+    "nombre": "Paso prueba",
+    "informacion": null,
+    "orden": 1,
+    "estado": "PENDIENTE",
+    "extras": "{\"acciones\": [{\"id\": \"a1\", \"nombre\": \"(nombre cacheado desde antes, sin contacto con Neo4j)\", \"informacion\": null, \"tipo\": null, \"parametros\": {}, \"stale\": false}], \"objetos\": [], \"condiciones\": [], \"locations\": [], \"estados\": []}",
+    "completado_en": null,
+    "extras_json": {
+      "acciones": [
+        {
+          "id": "a1",
+          "nombre": "(nombre cacheado desde antes, sin contacto con Neo4j)",
+          "informacion": null,
+          "tipo": null,
+          "parametros": {},
+          "stale": false
+        }
+      ],
+      "objetos": [],
+      "condiciones": [],
+      "locations": [],
+      "estados": []
+    }
+  }
+]
